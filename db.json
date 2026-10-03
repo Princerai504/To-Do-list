@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "value": "Buy groceries",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "value": "Walk the dog",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "value": "Finish work project",
+      "completed": true
+    },
+    {
+      "value": "redux",
+      "completed": true,
+      "id": "_iakVB1zTSA"
+    },
+    {
+      "value": "redux toolkit",
+      "completed": true,
+      "id": "y2oQR9J7NX8"
+    },
+    {
+      "value": "addd",
+      "completed": true,
+      "id": "Ue5Ig6-MGso"
+    },
+    {
+      "value": "hy",
+      "completed": false,
+      "id": "XmEFdH7iVic"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
