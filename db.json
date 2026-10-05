@@ -1,39 +1,29 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "value": "Buy groceries",
-      "completed": true
+      "value": "html",
+      "completed": true,
+      "id": "BSvzwjELul0"
     },
     {
-      "id": "2",
-      "value": "Walk the dog",
-      "completed": true
+      "value": "css",
+      "completed": true,
+      "id": "ViA-uDTHATk"
     },
     {
-      "id": "3",
-      "value": "Finish work project",
-      "completed": true
+      "value": "js",
+      "completed": true,
+      "id": "X6oX8q3vO6s"
+    },
+    {
+      "value": "react",
+      "completed": true,
+      "id": "H50wFPY1VsU"
     },
     {
       "value": "redux",
-      "completed": true,
-      "id": "_iakVB1zTSA"
-    },
-    {
-      "value": "redux toolkit",
-      "completed": true,
-      "id": "y2oQR9J7NX8"
-    },
-    {
-      "value": "addd",
-      "completed": true,
-      "id": "Ue5Ig6-MGso"
-    },
-    {
-      "value": "hy",
       "completed": false,
-      "id": "XmEFdH7iVic"
+      "id": "Z2A8M-bxNhI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
