@@ -7,6 +7,9 @@ import "./index.css";
 import { store } from "./store.js";
 // import { ApiProvider } from "@reduxjs/toolkit/query/react";
 // import { api } from "./apiSlice.js";
+import { setupListeners } from "@reduxjs/toolkit/query";
+
+setupListeners(store.dispatch);
 
 const router = createBrowserRouter([
   {

@@ -11,7 +11,7 @@ export default function Home() {
     isLoading,
     isFetching,
     error
-  } = useGetTasksQuery();
+  } = useGetTasksQuery(undefined, {refetchOnFocus: true,});
 
   const [newTask, setNewTask] = useState("");
 

@@ -15,6 +15,7 @@ export const api = createApi({
                 method: "POST",
                 body: task,
             }),
+            invalidatesTags: ['Tasks'],
             async onQueryStarted(task, {dispatch, queryFulfilled}) {
                 const tempId = `temp_${Date.now()}`;
                 const patchResult = dispatch(
@@ -41,6 +42,7 @@ export const api = createApi({
                 method: 'PATCH',
                 body: updatedTask,
             }),
+            invalidatesTags: ['Tasks'],
             async onQueryStarted({ id, ...updatedTask }, {dispatch, queryFulfilled}) {
                 const patchResult = dispatch(
                     api.util.updateQueryData('getTasks', undefined, (tasksList) => {
@@ -68,6 +70,7 @@ export const api = createApi({
                 url: `/tasks/${id}`,
                 method: 'DELETE',
         }),
+        invalidatesTags: ['Tasks'],
          async onQueryStarted(  id , {dispatch, queryFulfilled}) {
                 const patchResult = dispatch(
                     api.util.updateQueryData('getTasks', undefined, (tasksList) => {
